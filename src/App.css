@@ -1,0 +1,93 @@
+.navbar a{
+    text-decoration: none ;
+    color: white ;
+    margin-right: 10px;
+
+}
+.navbar .active
+{
+    color: orange;
+}
+.btn-1:hover
+{
+    background-color: black !important;
+    border: 2px solid black !important;
+    color: orange !important;
+}
+
+/* serivices */
+.bgimg{
+    background-image: url('/public/images/services-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bgimg .card{
+    background-color: orangered;
+    color: white;
+}
+
+.bgimg .btn
+{
+    display: none;
+}
+
+.bgimg .card:hover
+{
+    background-color: white;
+    color: black;
+}
+.bgimg .card :hover .btn{
+    display: block;
+}
+
+
+/* contact us */
+
+.bgimg1
+{
+  background-image: url('/public/images/img-9.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bgimg1 .form-control::placeholder
+{
+  padding-left: 30px !important;
+  font-size: 20px !important;
+}
+.bgimg1 .btn
+{
+  background-color: orangered !important;
+  border: 2px solid orangered;
+}
+.bgimg1 .btn:hover
+{
+  background-color: white !important;
+  color: black;
+  border: 2px solid white;
+}
+
+
+/* footer */
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.footer  a:hover
+{
+  color: orange;
+}
+
+.gal .card img{
+  height: 300px !important;
+  width: 300px !important;
+  border-radius: 20px;
+}
